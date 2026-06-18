@@ -1,9 +1,19 @@
+# Local cache folders
+ExoTransitEngine_Cache/
+.exotransit_cache/
+
+# Python environment artifacts
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.pytest_cache/
 .venv/
 venv/
+ENV/
+
+# Data and logs
 *.fits
-astropy_config/
-astropy_cache/
-build/
-dist/
+*.csv
+*.log
+Export_*/
